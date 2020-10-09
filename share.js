@@ -5,7 +5,7 @@ let c=Number(document.getElementById('profit').value) ;
 let balance=investment ;
 let profit = c/100 ;
 let days=4;
-while (balance<2000000){
+while (balance<1000000){
         balance=balance + (Math.round(balance * profit));
         days += 1 ;
         }
