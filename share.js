@@ -9,8 +9,7 @@ while (balance<1000000){
         balance=balance + (Math.round(balance * profit));
         days += 1 ;
         }
-console.log("days: "+ days);
-document.querySelector("h1").innerHTML="Great! You will be millionaire in just  " + days +" day";
+document.querySelector("h1").innerHTML="Great! You will be millionaire in just  " + (days-4) +" day";
 }
 
 
